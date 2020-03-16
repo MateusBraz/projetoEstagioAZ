@@ -1,0 +1,53 @@
+.DS_Store
+leilao-app/node_modules
+leilao-app/dist
+
+# local env files
+leilao-app/.env.local
+leilao-app/.env.*.local
+
+# Log files
+leilao-app/npm-debug.log*
+leilao-app/yarn-debug.log*
+leilao-app/yarn-error.log*
+
+# Editor directories and files
+.idea
+leilao-app/.vscode
+leilao-app/*.suo
+leilao-app/*.ntvs*
+leilao-app/*.njsproj
+leilao-app/*.sln
+leilao-app/*.sw?
+
+
+leilao-api/iHELP.md
+leilao-api/target
+leilao-api/!.mvn/wrapper/maven-wrapper.jar
+leilao-api/!**/src/main/**
+leilao-api/!**/src/test/**
+
+### STS ###
+leilao-api/.apt_generated
+leilao-api/.classpath
+leilao-api/.factorypath
+leilao-api/.project
+leilao-api/.settings
+leilao-api/.springBeans
+leilao-api/.sts4-cache
+
+### IntelliJ IDEA ###
+leilao-api/*.iws
+leilao-api/*.iml
+leilao-api/*.ipr
+
+### NetBeans ###
+leilao-api/nbproject/private/
+leilao-api/nbbuild/
+leilao-api/dist/
+leilao-api/nbdist/
+leilao-api/.nb-gradle/
+leilao-api/build/
+
+### VS Code ###
+leilao-api/.vscode/
