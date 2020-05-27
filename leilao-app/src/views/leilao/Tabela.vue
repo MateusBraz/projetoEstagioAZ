@@ -1,18 +1,35 @@
 <template xmlns:v-slot="http://www.w3.org/1999/XSL/Transform">
-    <v-data-table
-            class="mt-5 indigo lighten-3"
-            :headers="cabecalhos"
-            :items="leiloes"
-            :single-select="true"
-            item-key="id"
-    >
-    </v-data-table>
+    <v-card class="indigo lighten-3">
+        <v-card-title>
+            Leilões
+            <v-spacer></v-spacer>
+            <v-text-field
+                    v-model="buscar"
+                    append-icon="mdi-magnify"
+                    label="Buscar"
+                    single-line
+                    hide-details
+            ></v-text-field>
+        </v-card-title>
+        <v-data-table
+                class="mt-5 indigo lighten-3"
+                :headers="cabecalhos"
+                :items="leiloes"
+                :single-select="true"
+                :search="buscar"
+                item-key="id"
+        >
+        </v-data-table>
+
+    </v-card>
+
 </template>
 
 <script>
     export default {
         data() {
             return {
+                buscar: '',
                 leiloes: [],
                 cabecalhos: [
                     {
