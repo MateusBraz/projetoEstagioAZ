@@ -25,6 +25,13 @@ export default new Vue({
         },
         onDeletarEmpresa(callback) {
             this.$on('deletarEmpresa', callback);
+        },
+        setMostrarNavigationDrawer() {
+            this.$emit('mostrarNavigationDrawer', () => {
+            });
+        },
+        onMostrarNavigationDrawer(callback) {
+            this.$on('mostrarNavigationDrawer', callback)
         }
     }
 })

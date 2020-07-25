@@ -1,5 +1,5 @@
 <template xmlns:v-slot="http://www.w3.org/1999/XSL/Transform">
-    <v-card class="indigo lighten-3">
+    <v-card dark class="indigo darken-1">
         <v-card-title>
             Leilões
             <v-spacer></v-spacer>
@@ -12,7 +12,7 @@
             ></v-text-field>
         </v-card-title>
         <v-data-table
-                class="mt-5 indigo lighten-3"
+                class="mt-5 indigo darken-1"
                 :headers="cabecalhos"
                 :items="leiloes"
                 :single-select="true"

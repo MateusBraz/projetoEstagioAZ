@@ -1,5 +1,5 @@
 <template xmlns:v-slot="http://www.w3.org/1999/XSL/Transform">
-    <v-card class="indigo lighten-3">
+    <v-card dark class="indigo darken-1">
         <v-card-title>
             Unidades
             <v-spacer></v-spacer>

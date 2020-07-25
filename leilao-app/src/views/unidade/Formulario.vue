@@ -1,5 +1,5 @@
 <template xmlns:v-slot="http://www.w3.org/1999/XSL/Transform">
-    <v-card ref="form" class="pt-2 pb-2 pl-2 pr-2" color="indigo lighten-3">
+    <v-card dark ref="form" class="pt-2 pb-2 pl-2 pr-2" color="indigo darken-1">
         <v-text-field
                 ref="nome"
                 v-model.trim="nome"
@@ -34,7 +34,7 @@
                     <span>Refresh form</span>
                 </v-tooltip>
             </v-slide-x-reverse-transition>
-            <v-btn color="primary" text @click="verificar">Salvar</v-btn>
+            <v-btn color="teal accent-3" text @click="verificar">Salvar</v-btn>
         </v-card-actions>
     </v-card>
 </template>
