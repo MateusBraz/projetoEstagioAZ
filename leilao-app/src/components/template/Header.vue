@@ -5,7 +5,9 @@
                             class="d-flex d-md-none"></v-app-bar-nav-icon>
 
         <transition enter-active-class="animated bounceInRight" appear>
-            <HeaderTitle/>
+            <router-link to="/">
+                <HeaderTitle/>
+            </router-link>
         </transition>
 
         <v-spacer></v-spacer>
